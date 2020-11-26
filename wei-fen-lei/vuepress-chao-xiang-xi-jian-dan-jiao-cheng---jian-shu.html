@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Learning Notes</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="My learning notes">
+    <meta name="referrer" content="no-referrer">
+    
+    <link rel="preload" href="/learning-notes/assets/css/0.styles.d266b3be.css" as="style"><link rel="preload" href="/learning-notes/assets/js/app.00568f00.js" as="script"><link rel="preload" href="/learning-notes/assets/js/2.f8bbc37d.js" as="script"><link rel="preload" href="/learning-notes/assets/js/12.21be3cdb.js" as="script"><link rel="prefetch" href="/learning-notes/assets/js/10.b0664fb5.js"><link rel="prefetch" href="/learning-notes/assets/js/11.646d2ddd.js"><link rel="prefetch" href="/learning-notes/assets/js/13.e539a982.js"><link rel="prefetch" href="/learning-notes/assets/js/3.a969e1d2.js"><link rel="prefetch" href="/learning-notes/assets/js/4.09fd2c39.js"><link rel="prefetch" href="/learning-notes/assets/js/5.fc791712.js"><link rel="prefetch" href="/learning-notes/assets/js/6.ffe6f60a.js"><link rel="prefetch" href="/learning-notes/assets/js/7.9aa5aca5.js"><link rel="prefetch" href="/learning-notes/assets/js/8.641032d3.js"><link rel="prefetch" href="/learning-notes/assets/js/9.4d3f4124.js">
+    <link rel="stylesheet" href="/learning-notes/assets/css/0.styles.d266b3be.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/learning-notes/" class="home-link router-link-active"><!----> <span class="site-name">Learning Notes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Mysql</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>未分类</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/learning-notes/wei-fen-lei/mvcc-duo-ban-ben-bing-fa-kong-zhi---jian-shu.html" class="sidebar-link">MVCC 多版本并发控制 - 简书</a></li><li><a href="/learning-notes/wei-fen-lei/vuepress-chao-xiang-xi-jian-dan-jiao-cheng---jian-shu.html" aria-current="page" class="active sidebar-link">/wei-fen-lei/vuepress-chao-xiang-xi-jian-dan-jiao-cheng---jian-shu.html</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/learning-notes/wei-fen-lei/vuepress-chao-xiang-xi-jian-dan-jiao-cheng---jian-shu.html#_1-vuepress-是什么" class="sidebar-link">1）VuePress 是什么？</a></li><li class="sidebar-sub-header"><a href="/learning-notes/wei-fen-lei/vuepress-chao-xiang-xi-jian-dan-jiao-cheng---jian-shu.html#_2-安装" class="sidebar-link">2）安装</a></li><li class="sidebar-sub-header"><a href="/learning-notes/wei-fen-lei/vuepress-chao-xiang-xi-jian-dan-jiao-cheng---jian-shu.html#_3-添加静态图片" class="sidebar-link">3）添加静态图片</a></li><li class="sidebar-sub-header"><a href="/learning-notes/wei-fen-lei/vuepress-chao-xiang-xi-jian-dan-jiao-cheng---jian-shu.html#_5-vuepress-可添加-js-代码" class="sidebar-link">5)vuePress 可添加 js 代码</a></li></ul></li><li><a href="/learning-notes/wei-fen-lei/simpread-mvcc-duo-ban-ben-bing-fa-kong-zhi---jian-shu.html" class="sidebar-link">simpread-MVCC 多版本并发控制 - 简书</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><blockquote><p>本文由 <a href="http://ksria.com/simpread/" target="_blank" rel="noopener noreferrer">简悦 SimpRead<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 转码， 原文地址 <a href="https://www.jianshu.com/p/7a2cc8a7f40c" target="_blank" rel="noopener noreferrer">www.jianshu.com<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></blockquote> <h2 id="_1-vuepress-是什么"><a href="#_1-vuepress-是什么" class="header-anchor">#</a> 1）VuePress 是什么？</h2> <p>先让我们看看 VuePress 能干什么？有什么效果？</p> <blockquote><p><img src="http://upload-images.jianshu.io/upload_images/6825620-28e35cce30aa26a7.png" alt=""> image.png</p></blockquote> <p>很像 vue 官网的文档页面，因为 vuePress 就是尤大大的一个力作<br> <a href="https://links.jianshu.com/go?to=http%3A%2F%2Fcaibaojian.com%2Fvuepress%2Fguide%2F" target="_blank" rel="noopener noreferrer">vuePress 官网介绍<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>介绍的很详细，这里只做搭建 VuePress 项目教程</p> <h2 id="_2-安装"><a href="#_2-安装" class="header-anchor">#</a> 2）安装</h2> <blockquote><p>注意 VuePress 基于 node 8.0+</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>npm install -g vuepress
+</code></pre></div><blockquote><p>创建工作文件夹 study<br>
+进入文件夹<br>
+快速初始化 package.json</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>npm init -y
+</code></pre></div><h3 id="_2-1-新建文件夹-docs"><a href="#_2-1-新建文件夹-docs" class="header-anchor">#</a> 2.1 新建文件夹 docs</h3> <p>配置 package.json，添加下述兩行</p> <div class="language- extra-class"><pre class="language-text"><code>{
+  &quot;scripts&quot;: {
+    &quot;docs:dev&quot;: &quot;vuepress dev docs&quot;,
+    &quot;docs:build&quot;: &quot;vuepress build docs&quot;
+  }
+}
+</code></pre></div><p>进入 docs 文件夹 创建 README.md 文件</p> <p>此时运行命令</p> <div class="language- extra-class"><pre class="language-text"><code>npm run  docs:dev
+</code></pre></div><p>此时文件夹结构</p> <div class="language- extra-class"><pre class="language-text"><code>study
++--docs
++----README.md
++--package.json
+</code></pre></div><p>运行访问 <a href="https://links.jianshu.com/go?to=http%3A%2F%2Flocalhost%3A8080%2F" target="_blank" rel="noopener noreferrer">http://localhost:8080/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <blockquote><p><img src="http://upload-images.jianshu.io/upload_images/6825620-8d12ecc68038f75d.png" alt=""> image.png</p></blockquote> <p>结束运行 ，执行命令</p> <div class="language- extra-class"><pre class="language-text"><code>npm run docs:build
+</code></pre></div><p>然后看文件变化 多了个 node_modules<br>
+docs 多了个 .vuepress 文件夹</p> <div class="language- extra-class"><pre class="language-text"><code>study
++--docs
++----.vuepress
++------ dist   //打包后的文件夹
++----README.md
++--package.json
++--node_modules
+</code></pre></div><p>我们在. vuepress 创建<br>
+config.js 文件<br>
+添加</p> <div class="language- extra-class"><pre class="language-text"><code>module.exports = {
+  title: 'Adroi媒体API 接口文档',  // 设置网站标题
+  description : 'Adroi',
+  base : '/v1/adroi-h5/adroiapi/',
+  themeConfig : {
+    nav : [
+        { text: '接口定义', link: '/apiword' },
+        { text: '接口字段定义', link: '/api' },
+        { text: '附录：错误码', link: '/error' }
+    ],
+    sidebar: {
+        '/' : [
+      &quot;/&quot;, //指的是根目录的md文件 也就是 README.md 里面的内容
+            &quot;apiword&quot;,  根目录创建 apiword.md文件
+            &quot;api&quot;,根目录创建 api.md文件
+            &quot;error&quot; 根目录创建 error.md文件
+        ]
+    },
+    sidebarDepth : 2
+  }
+}
+</code></pre></div><blockquote><p><img src="http://upload-images.jianshu.io/upload_images/6825620-3b3c28127120e28e.png" alt=""> image.png</p></blockquote> <h2 id="_3-添加静态图片"><a href="#_3-添加静态图片" class="header-anchor">#</a> 3）添加静态图片</h2> <div class="language- extra-class"><pre class="language-text"><code>![An image](./baner.png)
+</code></pre></div><ol start="4"><li>添加指定样式</li></ol> <hr> <blockquote><p>添加样式 分两种 一种不用预编译处理、一种使用</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>//不使用预编译处理
+//直接在md文件底部添上
+&lt;style&gt;&lt;/style&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>//使用预编译处理
+首先需要安装所需的模块  举例：stylus
+npm i stylus stylus-loader -D
+&lt;style lang=&quot;stylus&quot;&gt;&lt;/style&gt;
+</code></pre></div><h2 id="_5-vuepress-可添加-js-代码"><a href="#_5-vuepress-可添加-js-代码" class="header-anchor">#</a> 5)vuePress 可添加 js 代码</h2> <blockquote><p>既然是尤大大的作品 那肯定是支持 vue 语法的<br>
+在 MD 文件中直接写入 js 的语法</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>&lt;script&gt;
+  export default{
+    //...do something
+}
+&lt;/script&gt;
+</code></pre></div><ol start="6"><li>代码发布或上传至服务器</li></ol> <hr> <blockquote><p>关于发布问题：首先我们知道在打包后的文件都是静态文件之前的 MD 文件都被打包成 html 静态文件了, 其次在文件 config.js 中 base 至关重要</p></blockquote> <h4 id="_6-1-发布在云盘中如百度云盘-github-上可直接通过链接访问"><a href="#_6-1-发布在云盘中如百度云盘-github-上可直接通过链接访问" class="header-anchor">#</a> 6-1 发布在云盘中如百度云盘 github 上可直接通过链接访问</h4> <p>在云盘上创建根目录如 vuepress，然后在 config 中 bese 这部分就填写<code>/vuepress</code>, 然后进行打包操作，再然后把打包后的文件上传至云盘上的 vuepress 文件中</p> <h4 id="_6-2-通过服务器发布"><a href="#_6-2-通过服务器发布" class="header-anchor">#</a> 6-2 通过服务器发布</h4> <p>在服务器上安装 Apache 或者 nginx 这里拿 nginx 举例：<br>
+至于 nginx 安装 以及配置文件的解读使用 我这里就不详述了，不了解的童鞋可以自己查阅相关文件</p> <blockquote><p>同样 base 的填写很重要</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>//为了简单明了 我们把打包好的文件放入nginx中html文件下  之前的文件可以清空
+server {
+        listen  8081;  //监听8081端口
+        server_name  localhost; //localhost:8081即可指向也可写别名如local.vuepress.com.cn  那我们访问这个端口的别名加端口就可以
+        location / {
+            root   /nginx/nginx-1.9.15/html; //至关重要你的入口文件在本机的位置
+            index  index.html index.htm; //入口文件
+        }
+    }
+</code></pre></div><h4 id="_6-3-可以通过-koa-启用服务发布"><a href="#_6-3-可以通过-koa-启用服务发布" class="header-anchor">#</a> 6-3 可以通过 koa 启用服务发布</h4> <p>具体代码不详述：可通过 koa 来学习</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/learning-notes/wei-fen-lei/mvcc-duo-ban-ben-bing-fa-kong-zhi---jian-shu.html" class="prev">
+        MVCC 多版本并发控制 - 简书
+      </a></span> <span class="next"><a href="/learning-notes/wei-fen-lei/simpread-mvcc-duo-ban-ben-bing-fa-kong-zhi---jian-shu.html">
+        simpread-MVCC 多版本并发控制 - 简书
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/learning-notes/assets/js/app.00568f00.js" defer></script><script src="/learning-notes/assets/js/2.f8bbc37d.js" defer></script><script src="/learning-notes/assets/js/12.21be3cdb.js" defer></script>
+  </body>
+</html>
