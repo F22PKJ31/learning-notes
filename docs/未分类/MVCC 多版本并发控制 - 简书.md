@@ -1,4 +1,4 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.jianshu.com](https://www.jianshu.com/p/8845ddca3b23)
+# MVCC 多版本并发控制 - 简书
 
 *   前提概要
     *   什么是 MVCC
