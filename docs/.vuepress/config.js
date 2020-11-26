@@ -2,7 +2,7 @@ module.exports = {
     title: 'Learning Notes',
     description: 'My learning notes',
     base: '/learning-notes/',
-    plugins: ['permalink-pinyin', ['autobar', { 'pinyinNav': true }]],
+    plugins: ['autobar', 'rpurl'],
     head: [
         ['meta', { 'name': 'referrer', 'content': 'no-referrer' }]
     ],
