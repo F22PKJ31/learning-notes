@@ -71,5 +71,7 @@ Tips
         
     *   after use:  
         `/js/core/mian-xiang-dui-xiang/mian-xiang-dui-xiang.html`
-        
+    
 3.  更多高级配置：[github.com/boboidream/…](https://github.com/boboidream/vuepress-bar)
+
+## 测试的测试测试测试test
